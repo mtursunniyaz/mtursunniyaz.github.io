@@ -13,6 +13,14 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
+		
+		<div id="particles-js"></div>
+
+<script src="particles.js"></script>
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', 'particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -365,13 +373,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
          <!-- Insert your code here -->
         
       
-<div id="particles-js"></div>
 
-<script src="particles.js"></script>
-/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-particlesJS.load('particles-js', 'particles.json', function() {
-  console.log('callback - particles.js config loaded');
-});
 
 	</body>
 </html>
