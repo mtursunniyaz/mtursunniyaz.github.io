@@ -364,7 +364,13 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
         <div id="wrapper">
          <!-- Insert your code here -->
         
-        </div>
+       <div id="particles-js"></div>
+
+<	script src="particles.js"></script>
+		/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', 'particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
     
     <script src="./js/jquery.min.js"></script>
     <script src="./js/particles.js"></script>
